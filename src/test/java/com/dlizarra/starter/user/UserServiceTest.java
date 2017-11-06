@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -21,6 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.dlizarra.starter.support.orika.OrikaBeanMapper;
 
 @Transactional
+@Ignore
 public class UserServiceTest {
 
 	@Mock
