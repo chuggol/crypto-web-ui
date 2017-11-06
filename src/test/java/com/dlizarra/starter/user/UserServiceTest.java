@@ -18,11 +18,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dlizarra.starter.support.AbstractUnitTest;
 import com.dlizarra.starter.support.orika.OrikaBeanMapper;
 
 @Transactional
-public class UserServiceTest extends AbstractUnitTest {
+public class UserServiceTest {
 
 	@Mock
 	private UserRepository userRepository;
